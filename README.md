@@ -1,6 +1,6 @@
 # GOJO - starting your go journey
 
-Welcome to `go`! I
+Welcome to `go`!
 
 Start your journey by reading Rob Pike's [_Go at Google: Language Design in the Service of Software Engineering_](https://talks.golang.org/2012/splash.article) which outlines the design principles behind the language.
 
@@ -14,7 +14,7 @@ Start your journey by reading Rob Pike's [_Go at Google: Language Design in the 
     
 0. `go` works best when all your `go` code is in a single tree, so make the place where you're going to keep your code:
 
-        mkdir ~/src/go
+        mkdir -p ~/src/go/src
         
 0. Set your `$GOPATH` so you can `go get` without trouble:
 
@@ -26,7 +26,7 @@ Start your journey by reading Rob Pike's [_Go at Google: Language Design in the 
 
 0. Clone this repo:
 
-        cd $GOPATH
+        cd $GOPATH/src
         git clone git@github.com:akjones/gojo.git 
 
 0. Install the test framework:
@@ -35,7 +35,7 @@ Start your journey by reading Rob Pike's [_Go at Google: Language Design in the 
         
 0. Start the test runner:
 
-        cd ~/src/gojo
+        cd ~/src/go/src/gojo
         # If you put your go bins on your $PATH
         goconvey
 
