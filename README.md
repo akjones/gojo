@@ -29,10 +29,14 @@ Start your journey by reading Rob Pike's [_Go at Google: Language Design in the 
         cd $GOPATH/src
         git clone git@github.com:akjones/gojo.git 
 
-0. Install the test framework:
+0. Install `godep`:
 
-        go get github.com/smartystreets/goconvey
+        go get go get github.com/tools/godep
         
+0. Install dependencies:
+
+        godep restore
+
 0. Start the test runner:
 
         cd ~/src/go/src/gojo
