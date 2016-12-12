@@ -4,6 +4,8 @@ Welcome to `go`!
 
 Start your journey by reading Rob Pike's [_Go at Google: Language Design in the Service of Software Engineering_](https://talks.golang.org/2012/splash.article) which outlines the design principles behind the language.
 
+Maybe also read [_How to write go code_](https://golang.org/doc/code.html) which shows things like how to lay out your packages, basic testing and other useful things.
+
 ## Let's code!
 
 ### On a mac:
